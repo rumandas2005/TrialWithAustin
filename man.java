@@ -26,6 +26,7 @@ public class man extends Actor
     public void act() 
     {
         move(6);
+        //
         if(isAtEdge()) {
             turn(this.turnAmount);
             
