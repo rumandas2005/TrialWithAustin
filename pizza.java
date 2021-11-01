@@ -45,7 +45,7 @@ public class pizza extends Actor
         
         if (isTouching(man.class)) {
             collisionCount++;
-            System.out.println("COLLIDED: " +collisionCount); 
+            System.out.println("They COLLIDED: " +collisionCount); 
         }
         getWorld().showText(this.toString() , +(this.width/2 -150), +(this.height/2));
     }    
